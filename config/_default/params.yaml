@@ -19,13 +19,12 @@ hugoblox:
     # Schema.org type for structured data
     type: person # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: ""
+    tagline: "金融专硕硕士研究生 | 量化金融研究"
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by HugoBlox
-      Kit. Easily create your personal academic website."
+    description: "曾磊的个人简历网站 — 厦门大学经济学院金融专硕硕士研究生，研究方向涵盖量化金融、金融工程与固定收益证券。"
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "GoOwnable" # Twitter/X handle for Twitter Cards (without @)
+      twitter: "" # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
