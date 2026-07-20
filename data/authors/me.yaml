@@ -1,116 +1,249 @@
 schema: hugoblox/author/v1
+
 slug: me
 is_owner: true
+
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
+  display: 曾磊
+  given: 磊
+  family: 曾
+  alternate: ''
+  pronunciation: ''
+  pronouns: 他/他
+
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: "📈"
+
+role: 金融硕士研究生 | 量化金融研究者
+
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  曾磊，厦门大学经济学院金融专业硕士研究生。
+  研究方向主要包括量化投资、金融市场微观结构、资产定价、
+  固定收益证券与机器学习在金融领域的应用。
+  
+  具备量化策略开发、高频金融数据分析、多因子投资组合构建、
+  多资产配置模型研究等经验，致力于运用数据分析与计量方法
+  探索金融市场中的投资机会。
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: 厦门大学经济学院
+    url: https://economics.xmu.edu.cn/
+
 
 links:
+
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
+    url: mailto:zenglei_0824@163.com
+    label: 电子邮箱
+
+  # 修改为个人Github地址
   - icon: brands/github
-    url: https://github.com/example
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://github.com/
+    label: Github
+
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+
+  - 量化投资
+  - 金融市场微观结构
+  - 资产定价
+  - 固定收益证券
+  - 机器学习与金融科技
+  - 投资组合管理
+
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+
+  - degree: 金融硕士
+    institution: 厦门大学经济学院
+    start: 2024-09-01
+    end: 2027-06-30
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      GPA：3.87/4.00，专业排名第1（93人）。
+      主要课程包括高级金融经济学、高级公司金融、
+      固定收益证券、高级计量经济学、金融工程学、
+      金融随机过程等。
+
+  - degree: 金融工程学士
+    institution: 四川大学经济学院
+    start: 2020-09-01
+    end: 2024-06-30
+    summary: |
+      GPA：3.90/4.00，专业排名第3（73人）。
+
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+
+
+  - role: 量化研究实习生
+    org: 星云至恒（厦门）私募基金管理有限公司
+    start: 2025-10-01
+    end: 2026-05-31
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      开展量化策略研究与开发工作，围绕市场微观结构、
+      高频交易策略和多资产配置开展研究。
+
+      基于DolphinDB处理逐笔交易、盘口等高频数据，
+      复现并优化订单流交易策略，构建订单流不平衡等
+      微观结构因子，并完成策略回测和稳健性分析。
+
+      研究风险平价改进模型，构建多资产配置策略。
+      PCA风险平价策略年化收益率6.29%，最大回撤1.15%，
+      Sharpe比率2.62，Calmar比率5.45。
+
+
+  - role: 采购实习生
+    org: 施耐德电气（厦门）开关设备有限公司
+    start: 2025-07-01
+    end: 2025-09-30
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      负责采购数据管理与分析，包括供应商报价跟踪、
+      月度调价报表制作及采购数据分析，
+      支持企业成本管理和运营决策。
+
+
+  - role: 财务实习生
+    org: 成都萌想科技有限责任公司
+    start: 2023-10-01
+    end: 2024-01-31
+    summary: |
+      协助完成经营分析报告、年度预算编制、
+      财务数据整理以及政府补助申报相关工作。
+
+
+research:
+
+
+  - title: 企业人工智能水平对非效率投资的影响——基于财务决策的视角
+    role: 第二作者
+    date: 2025
+    summary: |
+      张戡教授研究项目。
+      基于中国A股上市公司数据，研究企业人工智能水平
+      对非效率投资的影响机制。
+      
+      主要负责机制检验和异质性分析，
+      论文发表于《财务管理研究》。
+
+
+  - title: 多因子量化投资策略研究
+    role: 项目负责人
+    date: 2025
+    summary: |
+      基于沪深300成分股构建多因子量化投资策略。
+      
+      通过ICIR指标从六大类别26个候选因子中筛选
+      市盈率、换手率、账面市值比等9个有效因子，
+      策略回测期获得14.90%的年化超额收益。
+
+
+projects:
+
+
+  - title: 全球资产配置智能投顾系统
+    summary: |
+      参与厦门大学经济学院周颖刚教授智能投顾项目。
+      
+      系统集成全球金融数据、智能策略生成、
+      动态风险评估、模拟交易和收益归因分析功能。
+      
+      主要负责系统功能完善和特色功能开发，
+      提升平台智能化投资教学与决策支持能力。
+
 
 skills:
-  - name: Technical Skills
+
+
+  - name: 量化金融技能
     items:
+
+      - label: 量化策略研究
+        level: 5
+
+      - label: 多因子模型
+        level: 5
+
+      - label: 投资组合优化
+        level: 4
+
+      - label: 金融建模
+        level: 4
+
+
+  - name: 编程与数据分析
+
+    items:
+
       - label: Python
         level: 5
-      - label: Machine Learning
+
+      - label: MATLAB
         level: 5
-      - label: Cloud Computing
+
+      - label: Stata
+        level: 5
+
+      - label: DolphinDB
         level: 4
-  - name: Research & Communication
+
+      - label: Office
+        level: 5
+
+
+  - name: 科研能力
+
     items:
-      - label: Academic Writing
+
+      - label: 实证金融研究
         level: 5
-      - label: Conference Presentations
+
+      - label: 数据分析
+        level: 5
+
+      - label: 学术论文写作
         level: 4
-      - label: Grant Proposals
-        level: 4
+
 
 languages:
-  - name: English
+
+
+  - name: 中文
     level: 5
-    label: Native
-  - name: Spanish
+    label: 母语
+
+
+  - name: 英语
     level: 4
-    label: Fluent
+    label: CET-6（626）
+
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+
+
+  - title: 国家奖学金
+    awarder: 中华人民共和国教育部
+    date: "2021-12-01"
+    summary: |
+      因优秀学业表现获得国家奖学金。
+
+
+  - title: 鸿儒奖学金
+    awarder: 鸿儒金融教育基金会
+    date: "2025-12-01"
+    summary: |
+      全国优秀硕士研究生奖学金。
+
+
+  - title: 中国联通奖学金
+    awarder: 中国联通
+    date: "2026-04-01"
+
+
+  - title: 第十一届“中金所杯”全国大学生金融知识大赛二等奖
+    awarder: 中国金融期货交易所
+    date: "2025-12-01"
+
+
+  - title: 全国大学生数学竞赛一等奖
+    awarder: 全国大学生数学竞赛
+    date: "2023-12-01"
