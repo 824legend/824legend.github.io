@@ -90,20 +90,20 @@ skills:
     items:
       - label: Python
         level: 5
-      - label: STATA
-        level: 5
-      - label: MATLAB
-        level: 4
       - label: DolphinDB
         level: 4
+      - label: MATLAB
+        level: 4
+      - label: STATA
+        level: 4        
       - label: Office
-        level: 5
+        level: 4
   - name: 视频与媒体
     items:
       - label: Adobe Premiere Pro
         level: 4
       - label: B站视频运营（总播放量300万+）
-        level: 5
+        level: 3
   - name: 资格证书
     items:
       - label: 期货从业人员资格证书

@@ -17,7 +17,7 @@ sections:
       # Hugo date format
       date_format: '2006年1月'
       # Education or Experience section first?
-      is_education_first: false
+      is_education_first: true
   - block: resume-skills
     content:
       title: 专业技能

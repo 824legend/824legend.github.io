@@ -46,28 +46,30 @@ sections:
 
         在学术研究方面，我以第二作者在《财务管理研究》发表论文，实证检验了企业人工智能水平对非效率投资的影响。
     design:
-      columns: '1'
-  - block: collection
-    id: papers
+      columns: 1
+
+  - block: resume-experience
     content:
-      title: 学术论文
-      filters:
-        folders:
-          - publications
-        featured_only: true
+      username: me
     design:
-      view: article-grid
+      # Hugo date format
+      date_format: '2006年1月'
+      # Education or Experience section first?
+      is_education_first: true
+  - block: resume-skills
+    content:
+      title: 专业技能
+      username: me
+  - block: resume-awards
+    content:
+      title: 奖项与荣誉
+      username: me
+    design:
+
       columns: 2
-  - block: collection
-    content:
-      title: 全部论文
-      text: ''
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
-    design:
-      view: citation
+
+
+    
   - block: collection
     id: projects
     content:
@@ -80,4 +82,26 @@ sections:
       columns: 2
       show_date: true
       show_read_more: true
+
+  - block: collection
+    id: papers
+    content:
+      title: 学术论文
+      filters:
+        folders:
+          - publications
+        featured_only: true
+    design:
+      view: article-grid
+      columns: 1
+  - block: collection
+    content:
+      title: 全部论文
+      text: ''
+      filters:
+        folders:
+          - publications
+        exclude_featured: false
+    design:
+      view: citation      
 ---
