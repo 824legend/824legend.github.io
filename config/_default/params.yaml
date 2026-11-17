@@ -41,8 +41,13 @@ hugoblox:
       secondary: ""
       neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
-    colors_light: {}
-    colors_dark: {}
+    # 深海军蓝 + 鎏金：沉稳大气的金融专业配色
+    colors_light:
+      primary: "#1e3a8a"
+      secondary: "#b45309"
+    colors_dark:
+      primary: "#93c5fd"
+      secondary: "#fcd34d"
     # Optional: Semantic surface color overrides
     surfaces:
       background: ""

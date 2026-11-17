@@ -31,8 +31,33 @@ sections:
 
       # Avatar customization
       avatar:
-        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+        size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
+
+  - block: stats
+    content:
+      title: 核心数据
+      text: 学业、科研与实践的关键成果一览
+      items:
+        - statistic: "1/93"
+          description: 硕士专业排名
+          sub_metric: GPA 3.88/4.00
+          icon: hero/academic-cap
+        - statistic: "14.90%"
+          description: 多因子策略年化超额收益
+          sub_metric: 沪深300成分股回测
+          icon: hero/chart-bar
+        - statistic: "2.62"
+          description: PCA风险平价策略夏普比率
+          sub_metric: 年化收益 6.29%
+          icon: hero/arrow-trending-up
+        - statistic: "300万+"
+          description: B站视频累计播放量
+          sub_metric: 视频运营与内容创作
+          icon: hero/play-circle
+    design:
+      layout: cards
+
   - block: markdown
     content:
       title: '📚 研究方向'
@@ -40,11 +65,11 @@ sections:
       text: |-
         我是一名金融专硕硕士研究生，专注于量化金融与金融工程领域的研究与实践。
 
-        在量化研究方面，我基于DolphinDB高频数据开展订单流交易策略开发与因子挖掘，构建了多资产配置的风险平价改进模型（PCA风险平价策略年化收益6.29%、Sharpe 2.62），并完成了可转债多因子选券框架的研究。
+        **量化研究方面**，我基于 DolphinDB 高频数据开展订单流交易策略开发与因子挖掘，构建了多资产配置的风险平价改进模型（PCA 风险平价策略年化收益 6.29%、Sharpe 2.62），并完成了可转债多因子选券框架的研究。
 
-        在市场微观结构方面，我在深圳证券交易所参与了ST股票涨跌幅限制改革的效果评估，以及最低订单停留时间制度的国际比较研究。
+        **市场微观结构方面**，我在深圳证券交易所参与了 ST 股票涨跌幅限制改革效果评估、最低订单停留时间（MRT）与订单成交比（OTR）监管制度的国际比较、境内外收盘机制研究，以及融资融券交易行为与市场风险监测等课题。
 
-        在学术研究方面，我以第二作者在《财务管理研究》发表论文，实证检验了企业人工智能水平对非效率投资的影响。
+        **学术研究方面**，我以第二作者在《财务管理研究》发表论文，实证检验了企业人工智能水平对非效率投资的影响。
     design:
       columns: 1
 
