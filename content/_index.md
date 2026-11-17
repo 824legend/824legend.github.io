@@ -39,8 +39,8 @@ sections:
       title: 核心数据
       text: 学业、科研与实践的关键成果一览
       items:
-        - statistic: "1/93"
-          description: 硕士专业排名
+        - statistic: "第1名"
+          description: 硕士专业排名（共93人）
           sub_metric: GPA 3.88/4.00
           icon: hero/academic-cap
         - statistic: "14.90%"
@@ -57,6 +57,7 @@ sections:
           icon: hero/play-circle
     design:
       layout: cards
+      animate: false
 
   - block: markdown
     content:
